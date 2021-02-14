@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/viktorcardona/coding-dojo-spring-boot.svg?style=svg)](https://circleci.com/gh/viktorcardona/coding-dojo-spring-boot)
+
 Weather API: Spring Boot Coding Dojo
 ---
 
