@@ -1,4 +1,4 @@
-Spring Boot Coding Dojo
+Weather API: Spring Boot Coding Dojo
 ---
 
 ### Introduction
@@ -8,16 +8,21 @@ This is an application that requests weather data given a city name from [OpenWe
 ### For Configuring the app use the application.yml file:
 
 #### Database Connection:
+
 ##### In the following property set the Data-Base Postgres URL in the form *jdbc:postgresql://server:port/data-base-name* 
->**spring.datasource.url**
+-   spring.datasource.url
+
 ##### In the following property set the Data-Base userName:
->**spring.datasource.username**
+
+-   spring.datasource.username
+
 ##### In the following property set the Data-Base password:
->**spring.datasource.password**
+-   spring.datasource.password
 
 #### OpenWeather Connection:
+
 ##### In the following property set the ApiKey:
->**weather.api.appId**
+-   weather.api.appId
 
 ### For Building the app is needed:
 
@@ -42,7 +47,6 @@ This is an application that requests weather data given a city name from [OpenWe
 
 -   http://localhost:8080/api-ui.html
 
-#### For Testing and Getting the Weather Data:
+#### Sample Request For Testing and Getting the Weather Data:
 
--   Sample Request:
--       http://localhost:8080/weather?city=Amsterdam
+-   http://localhost:8080/weather?city=Amsterdam
