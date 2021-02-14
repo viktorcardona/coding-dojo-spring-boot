@@ -18,6 +18,8 @@ jobs:
 
     steps:
       - checkout
-
       # run tests!
       - run: mvn clean install
+      - run: mvn test
+      - store_artifacts:
+          path: target
